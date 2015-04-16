@@ -1,17 +1,3 @@
----
-<<<<<<< HEAD
-title: "PA1_template"
-author: "Steven Watson"
-date: "Wednesday, April 15, 2015"
-output: html_document
----
-
-This file was created to fulfil the requirements of the Cousera Reproduceable Research course
-The R code (commented) with figures is below, but to make it simple I will sum it up at the end...
-
-
-
-```{r, echo=TRUE}
 #created 4-13-15 by Steven Watson for Coursera Reproduceable Research
 
 #Load and process the data
@@ -73,50 +59,3 @@ avstepsbyweekdaynew$mean <- ave(avstepsbyweekdaynew$steps, avstepsbyweekdaynew$i
 library(lattice) #load lattice
 
 xyplot(mean ~ interval | weekday, avstepsbyweekdaynew) #plotting mean steps by period for weekday and weekend
-```
-
-Making your grading easy:
-
-The first image is histogram of steps by day.
-
-The mean is 'r rmeansteps' and the median is 'r mediansteps'.
-
-The second image is a time series plot by interval (averaged by days).
-
-The five minute interval that is the most is 'maxtime' with 'maxsteps' steps.
-
-Missing data was given the average step value across all observations.
-
-The third image is a histrogram of steps by day WITH missing values replaced.
-
-The fourth image is a panel plot looking at weekend vs weekday values.
-
-All code is contained above and commented.
-
-
-=======
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
-
-
-## Loading and preprocessing the data
-
-
-
-## What is mean total number of steps taken per day?
-
-
-
-## What is the average daily activity pattern?
-
-
-
-## Imputing missing values
-
-
-
-## Are there differences in activity patterns between weekdays and weekends?
->>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
