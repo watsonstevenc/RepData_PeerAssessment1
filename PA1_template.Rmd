@@ -1,9 +1,16 @@
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> df8edf81751fc813d5eb35c509f1b3f7e326d69d
 title: "PA1_template"
 author: "Steven Watson"
 date: "Wednesday, April 15, 2015"
 output: html_document
+<<<<<<< HEAD
 keep_md: true
+=======
+>>>>>>> df8edf81751fc813d5eb35c509f1b3f7e326d69d
 ---
 
 This file was created to fulfil the requirements of the Cousera Reproduceable Research course
@@ -94,3 +101,32 @@ The fourth image is a panel plot looking at weekend vs weekday values.
 All code is contained above and commented.
 
 
+<<<<<<< HEAD
+=======
+=======
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
+>>>>>>> df8edf81751fc813d5eb35c509f1b3f7e326d69d

@@ -58,8 +58,12 @@ avstepsbyweekdaynew$mean <- ave(avstepsbyweekdaynew$steps, avstepsbyweekdaynew$i
 
 library(lattice) #load lattice
 
+<<<<<<< HEAD
 xyplot(mean ~ interval | weekday, avstepsbyweekdaynew) #plotting mean steps by period for weekday and weekend
 
 #note to load this file you need to open up a new .Rmd file and paste the code
 #to get a .md file from that, load library(knitr) and type knit2html("PA1_template.Rmd")
 #to get a .html file, just click knit html
+=======
+xyplot(mean ~ interval | weekday, avstepsbyweekdaynew) #plotting mean steps by period for weekday and weekend
+>>>>>>> df8edf81751fc813d5eb35c509f1b3f7e326d69d
